@@ -18,6 +18,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.mcas2.misaficiones.databinding.ActivityAficionesBinding;
+import com.mcas2.misaficiones.fr.aficiones.SobreMi;
 import com.mcas2.misaficiones.ui.frmanager.Paginador;
 
 public class Aficiones extends AppCompatActivity {
@@ -51,13 +52,13 @@ public class Aficiones extends AppCompatActivity {
         }
 
         if (id == R.id.aboutMeButton) {
-            //Intent intent = new Intent(Aficiones.this, SobreMi.class);
-            //startActivity(intent);
+            Intent intent = new Intent(Aficiones.this, SobreMi.class);
+            startActivity(intent);
         }
 
         if (id == R.id.myCodeButton) {
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://github.com/mcas2/"));
+            intent.setData(Uri.parse("https://github.com/xubo961/"));
             startActivity(intent);
         }
 
