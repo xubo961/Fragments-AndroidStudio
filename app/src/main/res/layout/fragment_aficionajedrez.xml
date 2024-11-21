@@ -16,11 +16,11 @@
 
 
     <TextView
-        android:id="@+id/textoComer"
+        android:id="@+id/textoAjedrez"
         android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Comer"
+        android:text="Baloncesto"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@id/splashGLH1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,10 +30,10 @@
         android:id="@+id/ajedrez"
         android:layout_width="350dp"
         android:layout_height="400dp"
-        android:src="@drawable/comer"
+        android:src="@drawable/ajedrez"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textoComer"
+        app:layout_constraintTop_toBottomOf="@id/textoAjedrez"
         />
 
 

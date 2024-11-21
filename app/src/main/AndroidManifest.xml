@@ -25,7 +25,11 @@
             android:name=".SobreMi"
             android:exported="false"
             android:label="SobreMi" >
-
+        </activity>
+        <activity
+            android:name=".Aficionvideojuegos"
+            android:exported="false"
+            android:label="Aficionvideojuegos" >
         </activity>
     </application>
 

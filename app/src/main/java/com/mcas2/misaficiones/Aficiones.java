@@ -31,6 +31,7 @@ public class Aficiones extends AppCompatActivity {
         viewPager.setAdapter(paginador);
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_about_me, menu);
