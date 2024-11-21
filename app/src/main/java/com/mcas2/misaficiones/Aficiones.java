@@ -4,21 +4,15 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.tabs.TabLayout;
-
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import com.mcas2.misaficiones.databinding.ActivityAficionesBinding;
-import com.mcas2.misaficiones.fr.aficiones.SobreMi;
 import com.mcas2.misaficiones.ui.frmanager.Paginador;
 
 public class Aficiones extends AppCompatActivity {
